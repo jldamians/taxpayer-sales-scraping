@@ -1,7 +1,6 @@
 {
   "name": "sunat-electronic-sales",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
@@ -14,6 +13,21 @@
   "author": "jldamians <jlds161089@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "moment": "^2.24.0",
     "puppeteer": "^1.12.2"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jldamians/sunat-electronic-sales.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jldamians/sunat-electronic-sales/issues"
+  },
+  "homepage": "https://github.com/jldamians/sunat-electronic-sales#readme",
+  "description": ""
 }
