@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "moment": "^2.24.0",
-    "puppeteer": "^1.12.2"
+    "puppeteer": "^1.12.2",
+    "sol-login": "git+https://github.com/jldamians/sol-login.git#v1.0.2"
   },
   "directories": {
     "example": "examples",
