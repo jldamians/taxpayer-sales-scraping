@@ -13,10 +13,13 @@
   "author": "jldamians <jlds161089@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "install": "^0.12.2",
     "moment": "^2.24.0",
+    "npm": "^6.9.0",
     "puppeteer": "^1.12.2",
     "sol-login": "git+https://github.com/jldamians/sol-login.git#v1.0.2",
-    "sol-popup": "git+https://github.com/jldamians/sol-popup.git#v1.0.2"
+    "sol-popup": "git+https://github.com/jldamians/sol-popup.git#v1.0.2",
+    "sol-preliminary-sales-information": "git+https://github.com/jldamians/sol-preliminary-sales-information.git#v1.0.1"
   },
   "directories": {
     "example": "examples",
