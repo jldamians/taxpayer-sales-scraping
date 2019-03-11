@@ -1,7 +1,7 @@
 {
-  "name": "sunat-electronic-sales",
+  "name": "taxpayer-sales-information-scraping",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jasmine"
   },
@@ -28,11 +28,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jldamians/sunat-electronic-sales.git"
+    "url": "git+https://github.com/jldamians/taxpayer-sales-information-scraping.git"
   },
   "bugs": {
-    "url": "https://github.com/jldamians/sunat-electronic-sales/issues"
+    "url": "https://github.com/jldamians/taxpayer-sales-information-scraping/issues"
   },
-  "homepage": "https://github.com/jldamians/sunat-electronic-sales#readme",
+  "homepage": "https://github.com/jldamians/taxpayer-sales-information-scraping#readme",
   "description": ""
 }
