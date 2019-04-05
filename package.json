@@ -13,6 +13,7 @@
   "author": "jldamians <jlds161089@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.4",
     "install": "^0.12.2",
     "moment": "^2.24.0",
     "npm": "^6.9.0",
@@ -25,7 +26,11 @@
     "example": "examples",
     "lib": "lib"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "sol-login": "git+https://github.com/jldamians/sol-login.git#master",
+    "sol-popup": "git+https://github.com/jldamians/sol-popup.git#master",
+    "sol-preliminary-sales-information": "git+https://github.com/jldamians/sol-preliminary-sales-information.git#master"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jldamians/taxpayer-sales-information-scraping.git"
