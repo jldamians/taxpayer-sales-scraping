@@ -1,9 +1,18 @@
 {
   "name": "taxpayer-sales-information-scraping",
   "version": "1.0.0",
+  "description": "Extracción de información del contribuyente",
   "main": "./lib/index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
   "scripts": {
     "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jldamians/taxpayer-sales-information-scraping.git"
   },
   "keywords": [
     "SUNAT",
@@ -12,27 +21,18 @@
   ],
   "author": "jldamians <jlds161089@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jldamians/taxpayer-sales-information-scraping/issues"
+  },
+  "homepage": "https://github.com/jldamians/taxpayer-sales-information-scraping#readme",
   "dependencies": {
     "bluebird": "^3.5.4",
     "install": "^0.12.2",
     "moment": "^2.24.0",
     "npm": "^6.9.0",
-    "puppeteer": "^1.12.2"
+    "puppeteer": "^1.12.2",
     "sol-login": "git+https://github.com/jldamians/sol-login.git#master",
     "sol-popup": "git+https://github.com/jldamians/sol-popup.git#master",
     "sol-preliminary-sales-information": "git+https://github.com/jldamians/sol-preliminary-sales-information.git#master"
-  },
-  "directories": {
-    "example": "examples",
-    "lib": "lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jldamians/taxpayer-sales-information-scraping.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jldamians/taxpayer-sales-information-scraping/issues"
-  },
-  "homepage": "https://github.com/jldamians/taxpayer-sales-information-scraping#readme",
-  "description": ""
+  }
 }
