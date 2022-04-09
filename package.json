@@ -28,7 +28,7 @@
   "dependencies": {
     "bluebird": "^3.5.4",
     "install": "^0.12.2",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "npm": "^6.9.0",
     "puppeteer": "^1.12.2",
     "sol-login": "git+https://github.com/jldamians/sol-login.git#master",
